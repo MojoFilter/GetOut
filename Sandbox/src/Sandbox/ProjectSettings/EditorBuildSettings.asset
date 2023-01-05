@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Starfield Skybox/Demo/DemoScene.unity
     guid: 47cd513b8c4397e4ca272a1ff269d933
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: ac72c353ad589034681993b4be09e437
+  - enabled: 1
+    path: Assets/Scenes/TestRoom1.unity
+    guid: 6793640525bc14a438a36984890819c9
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

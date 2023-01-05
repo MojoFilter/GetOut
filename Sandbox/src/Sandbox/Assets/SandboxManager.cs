@@ -26,6 +26,12 @@ public class SandboxManager : MonoBehaviour
         StartCoroutine(routine);
     }
 
+    public void StartSpookyDungeon() 
+    {
+        var routine = this.LoadScene("TestRoom1");
+        StartCoroutine(routine);
+    }
+
     private IEnumerator LoadScene(string name)
     {
         var loadOperation = SceneManager.LoadSceneAsync(name);
